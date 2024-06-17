@@ -1,0 +1,117 @@
+
+
+body {
+  background-color: #54eec0;
+  margin: 0;
+  padding: 0;
+}
+
+.headlines {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#root {
+
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.logo {
+  height: 20em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(10 10 4em #056c88aa);
+}
+
+.header {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  align-items: center;
+  padding: 0 1rem; 
+  box-sizing: border-box; 
+  background-color: rgb(85, 189, 154);
+  border-radius: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: left;
+}
+
+.header-right {
+  display: flex;
+  align-items: right;
+}
+
+.settingsIcon {
+  height: 3em;
+  width: 3em;
+  margin-top: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.schoollogo {
+  height: 3em;
+  width: 3em;
+  margin-top: 0.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.input-container {
+  margin-top: 1rem;
+}
+
+.input-label {
+  font-family: inherit; /* Inherit font-family from parent */
+  font-weight: inherit; /* Inherit font-weight from parent */
+  font-style: inherit; /* Inherit font-style from parent */
+  font-size: 1.2rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit; /* Inherit font-family from parent */
+  font-weight: inherit; /* Inherit font-weight from parent */
+  font-style: inherit; /* Inherit font-style from parent */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+/* }
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.card {
+  padding: 2em;
+}
+
