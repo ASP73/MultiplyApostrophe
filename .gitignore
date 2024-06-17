@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+  user: "root",
+  password: "MySQL280510",
+  database: "multiplyapostrophe",
