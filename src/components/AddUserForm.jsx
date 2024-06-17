@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AddUserForm = ({ onAddUser = () => {} }) => {
+const AddUserForm = () => {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
   const [password, setPassword] = useState("");
@@ -19,16 +19,16 @@ const AddUserForm = ({ onAddUser = () => {} }) => {
     setRole("");
     setPassword("");
     setShowForm(false); // Hide the form after submission
-    onAddUser(); // Call the onAddUser callback function if provided
+    // onAddUser(); // Call the onAddUser callback function if provided
   };
 
   const handleShowForm = () => {
     setShowForm(true); // Show the form when the button is clicked
   };
 
-  const handleCloseForm = () => {
-    setShowForm(false); // Hide the form when the "Add User" button is clicked
-  };
+  // const handleCloseForm = () => {
+  //   setShowForm(false); // Hide the form when the "Add User" button is clicked
+  // };
 
   return (
     <>
