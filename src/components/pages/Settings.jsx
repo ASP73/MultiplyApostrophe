@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddUserForm from "./AddUserForm";
+import AddUserForm from "../AddUserForm";
 
 const Settings = () => {
   const [showForm, setShowForm] = useState(false);

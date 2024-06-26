@@ -1,10 +1,10 @@
 import "./App.css";
+import users from "./data/users.json";
 import mrparker from "./assets/mrparker.svg";
 import Header from "./components/Header";
-import users from "./data/users.json";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Settings from "./components/Settings.jsx";
+import Settings from "./components/pages/Settings.jsx";
 
 function App() {
   const [userName, setUserName] = useState("");
